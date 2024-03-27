@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="admission_style.css" />
+    <link rel="icon" href="../assets/soa_logo.png" type="image/icon type">
+    <title>Admission</title>
+  </head>
+  <body>
+    <!-- logo -->
+    <div class="logo">
+      <img class="logo-img" src="../assets/soa_logo.png" alt="" />
+      <h1 class="logo-text">SOA | ITER</h1>
+    </div>
+
+    <div class="main">
+      <div class="left">
+        <img src="../assets/IMG-20240107-WA0241.jpg" />
+      </div>
+      <div class="right">
+        <div class="content">
+          <!-- <div class="four">
+            <div class="heading">
+              <h1>SAAT 2024 - Application form</h1>
+              <h3>
+                SAAT 2024 - SOA ADMISSION TEST<br> SIKSHA 'O' ANUSANDHAN ADMISSION
+                TEST
+              </h3>
+              
+            </div>
+            <button id="b4">next</button>
+          </div> -->
+          <div class="three">
+            <div class="heading">
+              <h1>SAAT 2024 - Application form</h1>
+              <h3>
+                SAAT 2024 - SOA ADMISSION TEST<br />
+                SIKSHA 'O' ANUSANDHAN ADMISSION TEST
+              </h3>
+            </div>
+            <div class="progress-3">
+              <div class="page-1"></div>
+              <div class="page-2"></div>
+              <div class="page-3"></div>
+            </div>
+            <form class="f3">
+              <!-- card name -->
+              <label for="card_name">Name on Card</label>
+              <input
+                type="text"
+                id="card_name"
+                name="card_name"
+                placeholder="Name"
+              />
+              <br />
+              <!-- card number -->
+              <label for="card_number">Credit card number</label>
+              <input
+                type="text"
+                id="card_number"
+                name="card_number"
+                placeholder="1111-2222-3333-4444"
+                pattern="[0-9]"
+                maxlength="16"
+              /><br />
+              <!-- exp_month -->
+              <label for="exp_year">Exp Year</label>
+              <input
+                type="text"
+                id="expyear"
+                name="exp_year"
+                placeholder="Year"
+              />
+              <br />
+              <!-- cvv -->
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="cvv" /><br />
+            </form>
+            <div class="btn">
+              <button id="b3">Make Payment &#8377;2,000</button>
+            </div>
+          </div>
+          <!-- page two -->
+          <div class="two">
+            <div class="heading">
+              <h1>SAAT 2024 - Application form</h1>
+              <h3>
+                SAAT 2024 - SOA ADMISSION TEST<br />
+                SIKSHA 'O' ANUSANDHAN ADMISSION TEST
+              </h3>
+            </div>
+            <div class="progress-2">
+              <div class="page-1"></div>
+              <div class="page-2"></div>
+              <div class="page-3"></div>
+            </div>
+            <form class="f2">
+              <!-- fathers name -->
+              <label for="fname">Father Name </label>
+              <input type="text" id="fname" name="fname" /><br />
+              <!-- mother name -->
+              <label for="mname">Mother Name </label>
+              <input type="text" id="mname" name="mname" /><br />
+              <!-- address-1 -->
+              <label for="address">Address (Line-1)*</label>
+              <input type="text" id="address" name="address" /><br />
+              <!-- address 2 -->
+              <label for="address">Address (Line-2)</label>
+              <input type="text" id="address" name="address" /><br />
+              <!-- city -->
+              <label for="city">City*</label>
+              <input type="text" id="city" name="city" /><br />
+              <!-- distict -->
+              <label for="distict">Distict*</label>
+              <input type="text" id="distict" name="distict" /><br />
+              <!-- state -->
+              <label for="state">Select State /UT*</label>
+              <select>
+                <option placeholder="Select">Select</option>
+                <option>Andaman and Nicobar Islands</option>
+                <option>Andhra Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+                <option>Chhattisgarh</option>
+                <option>Chandigarh</option>
+                <option>Delhi (NCT)</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himachal Pradesh</option>
+                <option>Jammu & Kashmir</option>
+                <option>Jharkhand</option>
+                <option>Karnataka</option>
+                <option>Kerala</option>
+                <option>Ladakh</option>
+                <option>Lakshadweep</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Manipur</option>
+                <option>Meghalaya</option>
+                <option>Mizoram</option>
+                <option>Nagaland</option>
+                <option>Odisha</option>
+                <option>Puducherry</option>
+                <option>Punjab</option>
+                <option>Rajasthan</option>
+                <option>Sikkim</option>
+                <option>Tamil Nadu</option>
+                <option>Telengana</option>
+                <option>Tripura</option>
+                <option>Uttar Pradesh</option>
+                <option>Uttarakhand</option>
+                <option>West Bengal</option></select
+              ><br />
+              <!-- pincode -->
+              <label for="pincode">Pincode *</label>
+              <input type="text" name="pin" pattern="[0-9]" maxlength="7" />
+              <br />
+
+              <!-- Document Submission -->
+              <!-- 10th marksheet -->
+              <label for="marksheet_10th">10th Marksheet *</label>
+              <input type="file" id="marksheet_10th" name="marksheet_10th" />
+              <br />
+
+              <!-- 12th marksheet -->
+              <label for="marksheet_12th">12th Marksheet *</label>
+              <input type="file" id="marksheet_12th" name="marksheet_12th" />
+              <br />
+
+              <label for="photograph"
+                ><b
+                  >Attach a Recent Passport Size Photograph <br />(The size of
+                  photo should not exceed 200kb.) *</b
+                ></label
+              >
+              <input type="file" id="photograph" name="photograph" />
+              <br />
+
+              <!-- declaration -->
+              <div class="declaration">
+                <label for="declaration"><b>Declaration *</b></label
+                ><br />
+                <input type="checkbox" id="decl" name="declaration" />
+                <p id="decl-p">
+                  I hereby submit that this is the first time I am applying for
+                  SAAT 2024.
+                </p>
+              </div>
+            </form>
+            <div class="btn">
+              <button id="b2">next</button>
+            </div>
+          </div>
+
+          <!-- first page -->
+          <div class="one">
+            <div class="heading">
+              <h1>SAAT 2024 - Application form</h1>
+              <h3>
+                SAAT 2024 - SOA ADMISSION TEST<br />
+                SIKSHA 'O' ANUSANDHAN ADMISSION TEST
+              </h3>
+            </div>
+            <div class="progress-1">
+              <div class="page-1"></div>
+              <div class="page-2"></div>
+              <div class="page-3"></div>
+            </div>
+            <form class="f1">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Full name"
+              /><br />
+
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@gmail.com"
+              /><br />
+
+              <label for="mob_no">Mobile-No</label>
+              <input
+                type="text"
+                id="mob_no"
+                name="mob_no"
+                placeholder="XXXXX12345"
+              /><br />
+            </form>
+            <div class="btn">
+              <button id="b1">next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(() => {
+      $("#b1").click(() => {
+        $(".two").css("z-index", "9");
+        $(".one").css("z-index", "0");
+        $(".three").css("z-index", "1");
+        $(".four").css("z-index", "2");
+      });
+      $("#b2").click(() => {
+        $(".two").css("z-index", "1");
+        $(".one").css("z-index", "0");
+        $(".three").css("z-index", "9");
+        $(".four").css("z-index", "2");
+      });
+      $("#b3").click(() => {
+        alert("Payment Successfull ");
+      });
+      // $("#b3").click(() => {
+      //   $(".two").css("z-index", "1");
+      //   $(".one").css("z-index", "0");
+      //   $(".three").css("z-index", "2");
+      //   $(".four").css("z-index", "9");
+      // });
+      // $("#b4").click(() => {
+      //   $(".two").css("z-index", "9");
+      //   $(".one").css("z-index", "0");
+      //   $(".three").css("z-index", "1");
+      //   $(".four").css("z-index", "2");
+      // });
+    });
+  </script>
+</html>

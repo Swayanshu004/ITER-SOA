@@ -1,9 +1,9 @@
 # ITER-SOA
 
 ## Remarkable Contributers
-- [Subhrankur](https://github.com/subhrankur)
-- [Akash](#usage)
-- [DibyaJyoti](#features)
+- [Subhrankur Sahoo](https://github.com/subhrankur)
+- [Akash Aman](#usage)
+- [DibyaJyoti Swain](#features)
 
 
 ## Live Link

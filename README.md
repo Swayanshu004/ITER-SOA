@@ -1,10 +1,7 @@
 # ITER-SOA
 
-## Description
-
-
 ## Remarkable Contributers
-- [Subhrankur](#installation)
+- [Subhrankur](https://github.com/subhrankur)
 - [Akash](#usage)
 - [DibyaJyoti](#features)
 
